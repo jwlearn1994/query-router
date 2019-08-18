@@ -1,0 +1,20 @@
+{
+  "name": "@johnnywang/query-router",
+  "version": "1.0.0",
+  "description": "A little query base router, which can build little application as SPA",
+  "scripts": {
+    "build": "gulp build",
+    "git": "git add . && git com -m 'update library' && git pl && git ps"
+  },
+  "author": "johnnywang",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-uglify": "^3.0.2",
+    "pump": "^3.0.0"
+  }
+}
